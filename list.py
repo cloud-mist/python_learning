@@ -25,8 +25,23 @@ print(motorcycles)
 #6.永久排序从小到大sort()		从大到小sort(reverse = True)
 cars = ['bmw','aodi','baoma','qirui']
 cars.sort()
-print(car)
+print(cars)
 cars.sort(reverse = True)
 print(cars)
 
 #7.临时排序 sorted()
+cars_2 = ['bmw','aodi','baoma','iqrui']
+print("\nhere is the sorted list:")
+print(sorted(cars_2) )	#从小到大
+print("\nhere is the original list again:")	
+print(cars_2)	#验证还是原始排列
+#遇到问题：	cars_2.sorted(reverse = True)
+#print(cars_2)	#从大到小
+
+#8.反转列表永久修改	想回去再执行reverse()
+cars_2.reverse()
+print(cars_2)
+cars_2.reverse()	#再回来
+
+#9.列表长度	len()
+print(len(cars_2))
