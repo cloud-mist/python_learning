@@ -73,4 +73,47 @@ aliens = [alien_0, alien_1, alien_2]
 for alien in aliens:
 	print(alien)
 
+#将列表存储在字典中
+pizza = {
+	'crust': 'thick',
+	'toppings': ['mushrooms', 'extra cheese'],
+	}
+print("you ordered a " + pizza['crust'] + "-crust pizza "+
+	"with the following toppings:")
+for topping in pizza['toppings']:
+	print("\t" + topping)
 
+#每当需要在字典中将一个键关联到多个值，都可以把值设为一个列表
+favo_lgg = {
+	'jen': ['python', 'ruby'],
+	'sarah':['c'],
+	'edward': ['ruby', 'go'],
+	'phil':['python','haskell'],
+}
+for name,lgg in favo_lgg.items():
+	print('\n' + name.title() + "'s favorite languages are:")
+	for language in lgg:
+		print('\t' + language.title() )
+
+#字典中存储字典 及访问
+users = {
+	'aeinstein':{
+		'first': 'albert',
+		'last': 'einstein',
+		'location': 'princeton',
+		},
+
+	'mcurie': {
+		'first': 'marie',
+		'last': 'curie',
+		'location': 'paris',
+		},
+	}
+
+for username, user_info in users.items():
+	print("\nUsername: " + username)
+	full_name = user_info['first'] + " " + user_info['last']
+	location = user_info['location']
+	print("\tFull name: " + full_name.title() )
+	print("\tLocation: " + location.title() )
+	
