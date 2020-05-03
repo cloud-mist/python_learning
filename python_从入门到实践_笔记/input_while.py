@@ -64,7 +64,7 @@ polling_active = True
 while polling_active:
 	name = input("enter name: ")
 	response = input("what like?")
-	responses[name]wq = response
+	responses[name] = response
 
 	repeat = input("another person?(yes or no)")
 	if repeat == 'no':
