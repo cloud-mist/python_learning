@@ -73,4 +73,3 @@ my_tesla.battery.get_range()
 
 my_tesla.battery.upgrade_battery()
 my_tesla.battery.get_range()
-
