@@ -1,0 +1,8 @@
+<!--父类-->
+<p>
+    <a href="{% url 'learning_logs:index' %}">Learning_log</a> -
+    <a href="{% url 'learning_logs:topics' %}">Topics</a>
+</p>
+  {% block content %}{% endblock content %}
+  <!--  一对块标签，content是占位符，包含信息由子模版确定-->
+<!-- % %模版标签。模板标签是一小段代码，生成要在网页中显示的信息。-->
