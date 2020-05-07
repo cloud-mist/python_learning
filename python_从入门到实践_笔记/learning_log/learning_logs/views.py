@@ -1,5 +1,9 @@
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+
 from .models import Topic
+from .forms import TopicForm
 # Create your views here.
 
 def index(request):
@@ -18,3 +22,15 @@ def topic(request, topic_id):
     entries = topic.entry_set.order_by('-date_added')   #获取条目
     context = {'topic': topic, 'entries': entries}      #保存到字典中
     return render(request, 'learning_logs/topic.html', context) #传给topic.html
+
+def new_topic(request):
+    '''添加新主题'''
+    if request.method != 'POST':
+        form = TopicForm()
+    else:
+        form = TopicForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('learning_logs:topics'))
+    context = {'form': form}
+    return render(request, 'learning_logs/new_topic.html', context)
