@@ -68,3 +68,17 @@
 |represent|n.表示|
 |bundle|v.捆|
 |arbitrary|adj.任意的|
+|item|n.项|
+|delegate|vt.委派…为代表|
+|iterate|n.重复|
+|ellipsis|n.省略|
+|accuracy|准确性|
+|elided|省略|
+|ace|高手|
+|spade|铲子|
+|implicit|adj.隐式的|
+|composition|n.构成|
+|shuffling|洗牌|
+|immutable|adj.不可改变的|
+|violating|vt.违反, 违背|
+|encapsulation|n.封装；包裹|

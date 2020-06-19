@@ -1,4 +1,5 @@
 import collections
+from random import choice
 
 Card = collections.namedtuple('Card',['rank', 'suit'])
 
@@ -16,10 +17,38 @@ class FrenchDeck:
 	def __getitem__(self,position):
 		return self._cards[position]
 
+# *****TEST*****
+
 beer_card = Card('7', 'diamonds')
 print(beer_card)
+
 deck = FrenchDeck()
 print(len(deck))
 print(deck[0])
 print(deck[-1])
+
+# pick a random card , use  random.choice
+print(choice(deck))
+print(choice(deck))
+
+# support slicing
+print(deck[:3])
+
+# our deck is iterable
+for card in reversed(deck):
+	print(card)
+
+#
+print(Card('Q', 'hearts') in deck)
+
+#
+suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
+
+def spades_high(card):
+	rank_value = FrenchDeck.ranks.index(card.rank)
+	return rank_value * len(suit_values) + suit_values[card.suit]
+
+for card in sorted(deck, key=spades_high):
+	print(card)	
+
 
