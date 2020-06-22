@@ -82,3 +82,4 @@
 |immutable|adj.不可改变的|
 |violating|vt.违反, 违背|
 |encapsulation|n.封装；包裹|
+|
