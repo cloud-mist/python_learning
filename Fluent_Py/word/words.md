@@ -82,4 +82,14 @@
 |immutable|adj.不可改变的|
 |violating|vt.违反, 违背|
 |encapsulation|n.封装；包裹|
-|
+|invocation|v.祈祷|
+|metaprogramming|元编程|
+|frequently|adv. 频繁地|
+|emulate|效法|
+|illustrate|说明|
+|dimensional|adj.尺寸的|
+|vector|n.矢量|
+|figure|n.图形|
+|doctest|文档测试|
+|manner|n.方法|
+|magnitude|n. 巨大|
