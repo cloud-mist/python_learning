@@ -1,4 +1,5 @@
 # WORDS  
+
 | Words List | Meaning |  
 | :---- | :----|
 |conceive|v.构想|
@@ -93,3 +94,17 @@
 |doctest|文档测试|
 |manner|n.方法|
 |magnitude|n. 巨大|
+|operand|n. 操作数|
+|excluded|adj. 排除的|
+|infix|n. 插入词,中缀|
+|CHAPTER 2|2 CHAPTER|
+|generic|泛型|
+|indentation|n.凹进,缩格|
+|uniform|adj.统一的|
+|concatenation|n.连接|
+|defer|vt.延缓,推迟|
+|primitive|adj. 原始的|
+|comprehension|n.理解|
+|basis|n. 底部；基础|
+|construct|构造|
+|intent|n. 意图|
