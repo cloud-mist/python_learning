@@ -48,7 +48,7 @@
 |term|n.术语|
 |hyphen|n.连字号|
 |aesthetics|美学|
-|CHAPTER|1|
+|CHAPTER 1|1 CHAPTER|
 |consistency|n. 一致性|
 |informed|adj.见多识广的|
 |oddity|n. 奇特,古怪|
@@ -71,7 +71,7 @@
 |arbitrary|adj.任意的|
 |item|n.项|
 |delegate|vt.委派…为代表|
-|iterate|n.重复|
+|iterate|n.重复; 迭代|
 |ellipsis|n.省略|
 |accuracy|准确性|
 |elided|省略|
@@ -108,3 +108,27 @@
 |basis|n. 底部；基础|
 |construct|构造|
 |intent|n. 意图|
+|clobbered|vt.破坏|
+|vital|adj. 极重要的|
+|latitude|n. 纬度|
+|longitude|n. 经度|
+|slot|n.狭槽|
+|capture|vt. 俘获；夺得|
+|yields|n. 收益；产量|
+|traction|n. 牵引；牵引力|
+|grab|vt. 攫取, 抓住|
+|preceding|adj.在前的|
+|dummy variable|哑变量|
+|placeholder|n. 占位符|
+|prefix|n. 前缀|
+|nested|adj. 嵌套的|
+|excess|过度，过量|
+|restriction|n. 约束, 限制|
+|desirable|adj. 可取的,合意的|
+|handy|adj.便利的|
+|in addition to|除...之外(还)|
+|brevity|n. 短暂;简短|
+|notation|n. 记号, 标记法|
+|specify|vt. 指定|
+|stride|n. 步幅；大步；进展|
+|||
