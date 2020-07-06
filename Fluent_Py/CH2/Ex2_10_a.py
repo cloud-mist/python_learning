@@ -5,7 +5,7 @@
     3.easy to split a sequence in two parts
 '''
 l = [10, 20, 30, 40, 50, 60]
-print(l[:2])            # [10, 20] 
+print(l[:2])            # [10, 20]  
 print(l[2:])            # [30, 40, 50, 60]
 
 

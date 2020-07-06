@@ -131,4 +131,7 @@
 |notation|n. 记号, 标记法|
 |specify|vt. 指定|
 |stride|n. 步幅；大步；进展|
-|||
+|hood|n. 头巾;兜帽;覆盖|
+|drawback|n. 缺点|
+|cascade|串联|
+|identity|n. 恒等|
