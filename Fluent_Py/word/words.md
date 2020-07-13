@@ -135,3 +135,6 @@
 |drawback|n. 缺点|
 |cascade|串联|
 |identity|n. 恒等|
+|remainder|n. 剩余物; 残余部分|
+|devote|vt. 把…奉献(给)|
+|lean|vi.倾斜;倚靠;倾向|
