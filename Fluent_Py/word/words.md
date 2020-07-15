@@ -97,7 +97,7 @@
 |operand|n. 操作数|
 |excluded|adj. 排除的|
 |infix|n. 插入词,中缀|
-|CHAPTER 2|2 CHAPTER|
+|**CHAPTER 2**|**2 CHAPTER**|
 |generic|泛型|
 |indentation|n.凹进,缩格|
 |uniform|adj.统一的|
@@ -138,3 +138,20 @@
 |remainder|n. 剩余物; 残余部分|
 |devote|vt. 把…奉献(给)|
 |lean|vi.倾斜;倚靠;倾向|
+|prerequisite|n. 先决条件,前提|
+|concise|adj. 简明的|
+|idiomatic|adj. 符合语言习惯的|
+|categorized|vt. 把…归类;把…列作|
+|axis|n. 轴|
+|recipe|方法; 秘诀; 诀窍|
+|combination|n. 合作, 结合|
+|defense|n. 防卫，防护|
+|convention|习俗, 惯例|
+|flat |扁平|
+|**CHAPTER 3**|**3 CHAPTER**|
+|fundamental|adj. 基本的; 重要的|
+|deploy|vt. 使展开; 施展; 部署|
+|panoramic|adj. 全景的;活动画景的|
+|||
+|||
+|||

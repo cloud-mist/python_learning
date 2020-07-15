@@ -1,4 +1,3 @@
-# ex1
 # 把一个字符串变成unicode码位列表
 symbols = '$%#@&@'
 codes = []
