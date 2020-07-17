@@ -32,3 +32,10 @@ print(q.pop())          # Item('spam')
 print(q.pop())          # Item('foo')
 print(q.pop())          # Item('grok')
 
+
+'''
+D:  1.heapq.heappush() heapq.heappop() 将元素从列表queue中插入删除，
+     且保证列表第一个元素优先级是最低的
+    2.队列以(-priority, index, item)组成。 参数1取负值，是为了优先级是从高到低
+      参数2是为了将具有相同优先级元素以适当顺序排列
+'''
