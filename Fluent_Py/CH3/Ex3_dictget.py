@@ -15,9 +15,9 @@ with open(sys.argv[1], encoding='utf-8') as fp:
             column_no = match.start()+1
             location = (line_no, column_no)
             
-            occurrences = index.get(word, [])
-            occurrences.append(location)
-            index[word] = occurrences
+            occurrences = index.get(word, [])   # 提取word出现的次数
+            occurrences.append(location)        # 把单词新出现的位置添加到列表后面
+            index[word] = occurrences           #　把新的列表放回字典
 
 for word in sorted(index, key=str.upper):
     print(word, index[word])

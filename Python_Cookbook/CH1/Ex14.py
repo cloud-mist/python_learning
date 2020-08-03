@@ -19,4 +19,9 @@ def sort_notcompare():
     users = [User(23), User(3), User(99)]
     print(users)
     print(sorted(users, key=attrgetter('user_id')))
-sort_notcompare()
+    
+sort_notcompare() 
+'''
+[User(23), User(3), User(99)]
+[User(3), User(23), User(99)]
+'''
